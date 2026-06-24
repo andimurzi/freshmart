@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Salmon Fillet Premium">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFD9D2"/>
+      <stop offset="1" stop-color="#FF9E8A"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="80" cy="90" r="120" fill="#ffffff" opacity="0.18"/>
+  <circle cx="540" cy="520" r="150" fill="#ffffff" opacity="0.14"/>
+  <circle cx="520" cy="70" r="10" fill="#ffffff" opacity="0.5"/>
+  <circle cx="70" cy="500" r="14" fill="#ffffff" opacity="0.4"/>
+  <circle cx="300" cy="265" r="178" fill="#ffffff" opacity="0.92"/>
+  <circle cx="300" cy="265" r="178" fill="none" stroke="#1C3327" stroke-opacity="0.08" stroke-width="4" stroke-dasharray="2 14" stroke-linecap="round"/>
+  <text x="300" y="290" font-size="180" text-anchor="middle" dominant-baseline="middle">🐟</text>
+  <text x="300" y="512" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#1C3327">Salmon Fillet Premium</text>
+  <text x="300" y="552" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="4" text-anchor="middle" fill="#1C3327" opacity="0.55">FRESHMART</text>
+</svg>

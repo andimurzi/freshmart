@@ -1,0 +1,6 @@
+# Konfigurasi build & start untuk Railway (Nixpacks).
+# Saat container mulai: bersihkan cache config -> migrasi -> seeding (idempoten) -> jalankan server.
+# Seeder memakai updateOrCreate sehingga aman dijalankan pada setiap deploy.
+
+[start]
+cmd = "php artisan config:clear && php artisan migrate --force && php artisan db:seed --force && php artisan serve --host=0.0.0.0 --port=$PORT"
